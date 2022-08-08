@@ -1,0 +1,23 @@
+.radioBox {
+  display: none;
+}
+.radioIcon {
+  display: none;
+}
+.radioBox + div {
+  background-color: #66acc7;
+}
+.radioBox:checked + div {
+  background-color: #0075a2;
+}
+.radioBox:checked + div > .radioIcon {
+  display: inline;
+}
+
+.checkedDiv {
+  background-color: #0075a2;
+}
+
+.notChecked {
+  background-color: #66acc7;
+}

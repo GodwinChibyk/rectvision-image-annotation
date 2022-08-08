@@ -1,0 +1,20 @@
+@tailwind base;
+
+.splide__pagination .splide__pagination__page {
+    background-color: gray;
+    position: relative;
+    bottom: -50px;
+    margin: 0 4px;
+}
+.splide__pagination .splide__pagination__page.is-active{
+    background-color: #183059
+}
+.hideScrollBar::-webkit-scrollbar {
+    display: none
+}
+.hideScrollBar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+@tailwind components;
+@tailwind utilities;
